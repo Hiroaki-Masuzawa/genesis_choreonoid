@@ -13,8 +13,8 @@ REPO=repo.irsl.eiiris.tut.ac.jp/
 # IRSL_TAG=''
 # IRSL_TAG=_latest
 IRSL_TAG=_new_rsl_rl
-IRSL_BASE_IMAGE_NAME=${REPO}irsl_base:cuda_${BASEIMAGE_TAG}_${_ROS_DISTRO}
-IRSL_SYSTEM_IMAGE_NAME=${REPO}irsl_system:cuda_${BASEIMAGE_TAG}_${_ROS_DISTRO}
+# IRSL_BASE_IMAGE_NAME=${REPO}irsl_base:cuda_${BASEIMAGE_TAG}_${_ROS_DISTRO}
+# IRSL_SYSTEM_IMAGE_NAME=${REPO}irsl_system:cuda_${BASEIMAGE_TAG}_${_ROS_DISTRO}
 IRSL_SYSTEM_IMAGE_NAME=${REPO}irsl_system:${_ROS_DISTRO}
 OUTPUT_IMAGE_NAME=${REPO}genesis_with_irsl${IRSL_TAG}:${_ROS_DISTRO}
 

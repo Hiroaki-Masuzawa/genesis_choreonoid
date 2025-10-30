@@ -56,3 +56,6 @@ _DOC_
 EOF
 
 ###
+
+COPY irsl_rl /choreonoid_ws/src/irsl_rl
+RUN bash -c "cd /choreonoid_ws && catkin build irsl_rl"

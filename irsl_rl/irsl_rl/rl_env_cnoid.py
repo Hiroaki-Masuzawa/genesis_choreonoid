@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 
-from rl_env_base import RLEnvBase
+from irsl_rl.rl_env_base import RLEnvBase
 
 exec(open('/choreonoid_ws/install/share/irsl_choreonoid/sample/irsl_import.py').read())
 from irsl_choreonoid.simulation_utils import SimulationEnvironment

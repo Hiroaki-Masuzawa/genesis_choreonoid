@@ -3,7 +3,7 @@ import torch
 import genesis as gs
 from genesis.utils.geom import quat_to_xyz, transform_by_quat, inv_quat, transform_quat_by_quat
 
-from rl_env_base import RLEnvBase
+from irsl_rl.rl_env_base import RLEnvBase
 
 class RLEnvGenesis(RLEnvBase):
     def __init__(self, num_envs, env_cfg, obs_cfg, reward_cfg, command_cfg, show_viewer=True, device="cuda",
