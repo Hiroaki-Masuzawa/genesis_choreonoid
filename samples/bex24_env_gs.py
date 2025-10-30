@@ -1,8 +1,8 @@
 import sys
 import os
-sys.path.append(os.path.dirname(__file__) + '/../irsl_rl')
+# sys.path.append(os.path.dirname(__file__) + '/../irsl_rl')
 
-from rl_env_gs import RLEnvGenesis
+from irsl_rl.rl_env_gs import RLEnvGenesis
 import genesis as gs
 
 class Bex24Env(RLEnvGenesis):
