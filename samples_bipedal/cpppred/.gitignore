@@ -1,0 +1,5 @@
+libtorch/build
+libtorch/*pt
+onnx/build
+onnx/*onnx
+onnx/*onnx.data
